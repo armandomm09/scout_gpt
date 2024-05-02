@@ -2,7 +2,7 @@ from openai import OpenAI
 import time
 from config import config
 import os
-client = OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
+client = OpenAI(api_key=config.OPENAI_API_KEY)
 
 # Define el ID del vector file existente
 vector_store_id = "vs_i4Wu7afB8GIap6otRLD2tDNQ"
