@@ -35,7 +35,7 @@ from gpt_assistant.stored_files_question import chatWithStoredFile
 if len(sys.argv) > 1:
     question = sys.argv[1]
 else:
-    question = "Que chasis tiene pink hawks?"
+    question = "Que chasis tiene lambot?"
 
 
 chatWithStoredFile(question)
