@@ -19,7 +19,7 @@ def chatWithStoredFile(question) -> str:
                 "vector_store_ids": [vector_store_id]
                 }
          },
-        model="gpt-3.5-turbo",
+        model="gpt-4o",
     )
 
     # Sube la pregunta junto con la referencia al vector file existente
